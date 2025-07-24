@@ -1,6 +1,6 @@
 ## 🔗 Preview
 
-[Live Demo](https://drive.google.com/file/d/1zfevZmc4DKO-lk_r8hldyxj5eLL3dOIJ/view?usp=sharing) 
+[Demo](https://drive.google.com/file/d/1zfevZmc4DKO-lk_r8hldyxj5eLL3dOIJ/view?usp=sharing) 
 
 ---
 
