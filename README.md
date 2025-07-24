@@ -1,6 +1,6 @@
 ## 🔗 Preview
 
-[Live Demo](#) <!-- Replace this link with your actual deployed URL -->
+[Live Demo](https://drive.google.com/file/d/1zfevZmc4DKO-lk_r8hldyxj5eLL3dOIJ/view?usp=sharing) 
 
 ---
 
@@ -16,12 +16,9 @@
 
 ## ⏳ If I Had More Time…
 
-- 🧪 Add unit and integration tests for key components.
 - 📱 Improve responsiveness across mobile and tablet breakpoints.
 - 🎨 Add support for dark mode and theme switching.
 - 🔄 Implement animations and transitions between 3D scenes.
-- 🧱 Modularize and optimize component structure for scalability.
-- ☁️ Integrate backend APIs to fetch and update 3D scene data.
 - 📊 Add performance profiling and loading states for large assets.
 
 ---
