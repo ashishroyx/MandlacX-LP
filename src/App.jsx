@@ -7,11 +7,6 @@ import Icon2 from './assets/Icon2.png'
 import Icon3 from './assets/Icon3.png'
 import Icon4 from './assets/Icon4.png'
 import Icon5 from './assets/Icon5.png'
-{/* Glowing Corners */}
-{/* <div className="absolute top-0 left-0 w-48 h-48 bg-yellow-500 opacity-10 blur-3xl rounded-full pointer-events-none" />
-<div className="absolute top-0 right-0 w-48 h-48 bg-yellow-500 opacity-10 blur-3xl rounded-full pointer-events-none" />
-<div className="absolute bottom-0 left-0 w-48 h-48 bg-yellow-500 opacity-10 blur-3xl rounded-full pointer-events-none" />
-<div className="absolute bottom-0 right-0 w-48 h-48 bg-yellow-500 opacity-10 blur-3xl rounded-full pointer-events-none" /> */}
 
 function App() {
   return (
@@ -68,7 +63,7 @@ function App() {
         
       </div>
      <div className="flex items-center justify-start gap-35 pl-155 -mt-8 ">
-  {/* Card Component (left side) */}
+  
    <FeatureCard
          icon={Icon5}
         title="Latency That Saves Seconds—and Lives"
@@ -76,7 +71,7 @@ function App() {
         />
   
 
-  {/* Right Text Content */}
+  
   <div className="text-white">
     <p className="italic text-5xl text-gray-300">Built for Speed.</p>
     <p className="text-5xl font-semibold leading-tight mt-2">

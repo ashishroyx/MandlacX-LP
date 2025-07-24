@@ -4,7 +4,7 @@ import * as THREE from 'three';
 import GlowingDot from './GlowingDot';
 
 const LabelConnector = ({ point1, point2, labelText }) => {
-  // Create 2 straight line segments
+  
   const midPoint = new THREE.Vector3(
     point1.x,
     point1.y + (point2.y - point1.y) / 2,
@@ -16,16 +16,16 @@ const LabelConnector = ({ point1, point2, labelText }) => {
 
   return (
     <>
-      {/* Line */}
+      
       <line>
         <bufferGeometry attach="geometry" {...lineGeometry} />
         <lineBasicMaterial attach="material" color="white" linewidth={2} />
       </line>
 
-      {/* Glowing Dot */}
+      
       <GlowingDot position={point1} />
 
-      {/* Floating Label */}
+      
       <Html position={[0.5, 2.3, 0]}>
         <div
   style={{

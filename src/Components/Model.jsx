@@ -8,12 +8,6 @@ function ProductModel() {
   const { scene } = useGLTF('/Models/Product.glb');
   const modelRef = useRef();
 
-  // useFrame(({ clock }) => {
-  //   const t = clock.getElapsedTime();
-  //   if (modelRef.current) {
-  //     modelRef.current.position.y = Math.sin(t * 2) * 0.2;
-  //   }
-  // });
 
   return (
     <Center>
@@ -31,23 +25,23 @@ export default function Model() {
         <Suspense fallback={null}>
           <ProductModel />
           <LabelConnector
-  point1={new THREE.Vector3(0.3, 0.5, 0.4)}      // near model
-  point2={new THREE.Vector3(1.5, 1.3, 0)}      // HTML label position
+  point1={new THREE.Vector3(0.3, 0.5, 0.4)}      
+  point2={new THREE.Vector3(1.5, 1.3, 0)}      
   labelText="Key Specifications"
 />
           <LabelConnector
-  point1={new THREE.Vector3(1.5, 1, 1)}      // near model
-  point2={new THREE.Vector3(1.5, -1, -1)}      // HTML label position
+  point1={new THREE.Vector3(1.5, 1, 1)}      
+  point2={new THREE.Vector3(1.5, -1, -1)}      
   labelText="Key Specifications"
 />
           <LabelConnector
-  point1={new THREE.Vector3(-0.3,0.5 , 0.5)}      // near model
-  point2={new THREE.Vector3(-1.7, 1.2, 2.6)}      // HTML label position
+  point1={new THREE.Vector3(-0.3,0.5 , 0.5)}      
+  point2={new THREE.Vector3(-1.7, 1.2, 2.6)}      
   labelText="Key Specifications"
 />
           <LabelConnector
-  point1={new THREE.Vector3(1.4,1 , 2)}      // near model
-  point2={new THREE.Vector3(-1, -0.5, 2.8)}      // HTML label position
+  point1={new THREE.Vector3(1.4,1 , 2)}      
+  point2={new THREE.Vector3(-1, -0.5, 2.8)}      
   labelText="Key Specifications"
 />
 

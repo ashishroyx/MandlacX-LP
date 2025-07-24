@@ -1,4 +1,4 @@
-// GlowingDot.jsx
+
 import React from 'react';
 import { MeshWobbleMaterial } from '@react-three/drei';
 
