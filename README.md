@@ -2,7 +2,6 @@
 
 [Video Demo](https://drive.google.com/file/d/1zfevZmc4DKO-lk_r8hldyxj5eLL3dOIJ/view?usp=sharing) 
 
-**📝 Note:** This project can be deployed to, but since deployment was not mentioned by the mentor, a video demo is attached instead.
 
 ---
 
